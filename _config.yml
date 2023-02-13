@@ -1,0 +1,3 @@
+{% for repository in  site.github.public_repositories %}
+  * [{{ repository.portfolio }}] ({{ repository.https://github.com/Ian-Stidsen/portfolio }})
+{% endfor %}
